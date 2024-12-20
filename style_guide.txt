@@ -1,0 +1,55 @@
+# Style Guide for Data Analysis Blog Posts
+
+## Colors and Theme
+- Use plotly_dark template for all visualizations
+- Background: transparent (rgba(0,0,0,0))
+- Grid lines: subtle grey (rgba(128,128,128,0.2))
+- Use px.colors.qualitative.Set1 for color sequences
+- Text colors: Light on dark (#f2f5fa for text)
+
+## Typography and Layout
+- Title font size: 24px
+- Body text font size: 14px
+- Legend text size: 12px
+- Margins: l=50, r=50, t=80, b=50
+- Center-aligned titles (x=0.5, xanchor='center')
+- Horizontal legends at bottom (y=-0.2, x=0.5)
+
+## Chart Specifications
+1. Pie/Donut Charts:
+   - Use hole=0.4 for donut charts
+   - Include center annotations
+   - Show percentages and labels
+   - Line width: 2px for segment separation
+
+2. Bar Charts:
+   - Group mode for comparison
+   - Stack mode for composition
+   - Include grid lines
+   - Clear axis labels
+   - Sort data meaningfully
+
+3. State-Level Charts:
+   - Height: 1200px for full visibility
+   - Width: 1200px
+   - Horizontal orientation
+   - Include state names on y-axis
+
+## Data Presentation
+- Round percentages to 1 decimal place
+- Format large numbers with commas
+- Use clear, descriptive labels
+- Include source information
+- Provide context in titles
+
+## Save Specifications
+- Format: PNG
+- Scale: 2x for high resolution
+- Standard dimensions: 1200x800 pixels
+- Adjust height for state-level visualizations: 1200x1600
+
+## Naming Conventions
+- Use descriptive, lowercase names
+- Separate words with underscores
+- Include _enhanced suffix for final versions
+- Example: national_transportation_distribution_enhanced.png

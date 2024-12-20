@@ -38,7 +38,7 @@ Perhaps our most revealing visualization shows how population density influences
 
 ## Interactive Exploration
 
-All these visualizations are available in interactive form in our [GitHub repository](https://github.com/davidburton/us-transportation-analysis). The repository includes:
+All these visualizations are available in interactive form in our [GitHub repository](https://github.com/Burton-David/us-transportation-analysis). The repository includes:
 - Complete Python code for reproduction
 - Interactive Plotly visualizations
 - Raw data and cleaning procedures
@@ -61,8 +61,4 @@ The visualizations are based on the 2023 American Community Survey 5-year estima
 - Population density calculations
 - State-level aggregations
 
-Code and data available at [github.com/davidburton/us-transportation-analysis](https://github.com/davidburton/us-transportation-analysis).
-
----
-
-_Note: Remember to update the actual GitHub URL once the repository is created._
+Code and data are available at [github.com/Burton-David/us-transportation-analysis](https://github.com/Burton-David/us-transportation-analysis).

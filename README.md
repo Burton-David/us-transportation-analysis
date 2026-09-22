@@ -18,13 +18,13 @@ The dataset combines commuting data from the 2023 ACS 5-year estimates with Cens
 ## Directory Structure
 
 ```
-means_of_transportation_to_work/
+us-transportation-analysis/
 ├── README.md
+├── blog_post.md              # Write-up of the findings
 ├── data/
-│   └── raw/                  # Raw data files
-├── notebooks/                # Jupyter notebooks
-├── images/                   # Generated visualizations
-└── src/                     # Source code
+│   └── raw/                  # ACS commuting data (CSV)
+├── notebooks/                # The analysis notebook, plus HTML and PDF exports
+└── images/                   # Figures the notebook generates
 ```
 
 ## Analysis Highlights
@@ -32,7 +32,7 @@ means_of_transportation_to_work/
 The analysis explores:
 1. National-level transportation mode distribution
 2. State-by-state comparisons of transportation patterns
-3. Urban vs. rural transportation differences
+3. Transportation mode by population density (tract quartiles, workers per km²)
 4. Public transportation usage variations
 5. Alternative transportation mode adoption
 6. Geographic impacts on transportation choices
@@ -41,7 +41,7 @@ The analysis explores:
 
 1. Clone this repository
 2. Install required dependencies (listed in requirements.txt)
-3. Run the Jupyter notebooks in the `notebooks/` directory
+3. Run `notebooks/transportation_analysis.ipynb`
 
 ## Visualizations
 
